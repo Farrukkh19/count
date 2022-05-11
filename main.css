@@ -34,3 +34,10 @@ button {
     padding-left: 50%;
     padding-right: 50%;
 }
+#save-el {
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 40px;
+}
