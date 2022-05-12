@@ -13,13 +13,13 @@ function increment() {
     countEl.innerText = count
 }
 function uncount() {
-    count <= 0 
-    count = count = - 0
+    if(count<=0) return
+    count = count - 1
     uncountEl.innerText = count
 }
 function save() {
     let saveStr = count + " " + " - "
-    saveEl.innerText += saveStr
+    saveEl.textContent += saveStr
     console.log(count)
 
 }
